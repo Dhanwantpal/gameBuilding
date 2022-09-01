@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         transform.position = new Vector3(0,0.5f,0);
-         transform.position = new Vector3(transform.position.x,Mathf.Clamp(transform.position.y,3.65f,0.5f),0);
+        // transform.position = new Vector3(transform.position.x,Mathf.Clamp(transform.position.y,3.65f,0.5f),0);
     }
 
     // Update is called once per frame
